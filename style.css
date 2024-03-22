@@ -52,9 +52,31 @@ section .box {
     color: #aaa;
 }
 
+.navbar .navbar-links a {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.box p{
+    color: white;
+    font-weight: 450;
+    font-size: 15px;
+}
+
 
 /* ======= About style ======= */
 
+.navbar
+
+.about {
+    background-color: rgb(195, 234, 229);
+}
+
+.about p {
+    color: black;
+}
 
 .about-img {
     width: 50%;
@@ -228,6 +250,8 @@ section .box {
 .border-04 {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
 .border-05 {
@@ -237,6 +261,8 @@ section .box {
     justify-content: center;
     border-bottom: none;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
 .border-06 {
@@ -244,9 +270,57 @@ section .box {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.border-07 {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
 }
 
+.border-08 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.border-09 {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+
+}.border-10 {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    
+}
+
+.border-11 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border-12 {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+
+}
 
 
 
@@ -360,16 +434,16 @@ section .box {
     padding: 2rem 1rem;
 }
 
-/* .contact .box-r:before {
+.contact .box-r:before {
     content: '';
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: #b506066b;
+    background-color: #3bb3be6b;
     height: 100%;
     width: 100%;
     z-index: 0;
-} */
+}
 
 .box-r:after {
     content: '';
@@ -381,6 +455,10 @@ section .box {
     background-image: url(./images/dots.png);
     background-repeat: repeat;
     z-index: 0;
+}
+
+.contact {
+background-color: rgb(195, 234, 229);
 }
 
 .contact .form-box h2 {
