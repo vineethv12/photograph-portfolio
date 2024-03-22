@@ -59,6 +59,10 @@ section .box {
 
 }
 
+.white-img{
+    filter: brightness(0) invert(1);
+}
+
 .box p{
     color: white;
     font-weight: 450;
