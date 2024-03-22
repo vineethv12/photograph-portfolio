@@ -150,17 +150,18 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; /* Center align the text */
+    text-align: center;
 }
 
 .header .box h1 {
     color: #fff;
-    margin-bottom: 20px; /* Add some space between h1 and p */
+    margin-bottom: 20px; 
 }
 
 .header .box p {
     color: #fff;
-    margin-bottom: 20px; /* Add some space between p and button */
+    font-size: 18px;
+    margin-bottom: 20px; 
 }
 
 .header .box .btn {
